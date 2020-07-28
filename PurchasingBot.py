@@ -40,3 +40,4 @@ def order(drive, k):
 if __name__ == '__main__':
     driver = webdriver.Chrome(keys["chromdriver_path"])
     order(driver, keys)
+    driver.quit()
